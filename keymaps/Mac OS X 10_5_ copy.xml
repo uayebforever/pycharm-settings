@@ -1,5 +1,13 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
+  </action>
   <action id="ToggleQuotes">
     <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
+  <action id="com.andrewbrookins.idea.wrap.WrapParagraphAction">
+    <keyboard-shortcut first-keystroke="shift ctrl meta p" />
+    <keyboard-shortcut first-keystroke="shift meta alt p" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="q" />
   </action>
 </keymap>
